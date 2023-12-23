@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./Sidebar.css";
+import "./index.css";
 
 //Links are declared outside component to avoid unneccesary redeclarations
 const links = [

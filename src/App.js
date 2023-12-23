@@ -1,15 +1,15 @@
 import { useState } from "react";
 import "./App.css";
-import Main from "./components/Main/Main";
-import Sidebar from "./components/Sidebar/Sidebar";
+import Body from "./components/Body";
+import Navbar from "./components/Navbar";
 
 function App() {
   const [showMenu, setShowMenu] = useState(false); //state to control menu in mobile view
 
   return (
     <div className="container">
-      <Sidebar user="Admin" show={showMenu} setShowMenu={setShowMenu} />
-      <Main setShowMenu={setShowMenu} />
+      <Navbar user="Admin" show={showMenu} setShowMenu={setShowMenu} />
+      <Body setShowMenu={setShowMenu} />
     </div>
   );
 }

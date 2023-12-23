@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./TagInput.css";
+import "./index.css";
 
 // Input component to handle tags addition form field
 const TagInput = () => {

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./New.css";
+import "./index.css";
 import PropTypes from "prop-types";
-import TagInput from "./TagInput/TagInput";
+import TagInput from "./TagInput";
 
 const New = ({ closeModal, visible, setAssessments }) => {
   // States to track form fields. Only fields shown in the design are covered

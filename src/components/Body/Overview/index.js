@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./Overview.css";
+import "./index.css";
 
 // Overview component to display statistics sections based on the 'sections' array from Main component
 const Overview = ({ sections, show }) => {

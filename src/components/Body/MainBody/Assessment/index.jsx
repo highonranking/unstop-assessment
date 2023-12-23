@@ -1,4 +1,4 @@
-import "./Assessment.css";
+import "./index.css";
 import PropTypes from "prop-types";
 
 // Assessment component that displays assessment details

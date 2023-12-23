@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import "./Main.css";
-import Overview from "./Overview/Overview";
-import Assessments from "./Assessments/Assessments";
-import { HEADER_TABS, SECTIONS, ASSESSMENTS_STATIC } from "../../constants";
+import "./index.css";
+import Overview from "./Overview/index.js";
+import Assessments from "./MainBody/index.js";
+import { HEADER_TABS, SECTIONS, ASSESSMENTS_STATIC } from "../../constants/index.js";
 
 
 const Main = ({ setShowMenu }) => {

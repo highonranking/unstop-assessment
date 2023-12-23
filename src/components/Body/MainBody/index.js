@@ -1,7 +1,7 @@
-import Assessment from "./Assessment/Assessment";
-import "./Assessments.css";
+import Assessment from "./Assessment";
+import "./index.css";
 import PropTypes from "prop-types";
-import New from "./New/New";
+import New from "./New";
 import { useState } from "react";
 
 // Assessments component to show existing assessments, as well as new assessment option
